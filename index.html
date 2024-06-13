@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Learning Layout</title>
+    <style>
+        body {
+            background-image: url(MobiCom-Banner-Web.png);
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        nav {
+           color: white;
+           padding: 10px 0;
+        }
+
+        nav ul {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          display: flex;
+          float: right;
+         justify-content: center;
+        }
+
+        nav ul li {
+         margin: 0 15px;
+        }
+
+        nav ul li a {
+          color: white;
+          text-decoration: none;
+        }
+        nav ul li a:hover {
+            color: blue;
+        }
+        .container {
+            display: flex;
+            align-items: flex-start;
+        }
+        .text {
+            flex: 1;
+            color: white;
+            font-size: 20px;
+            font-style: italic;
+        }
+        .image {
+            margin-left: 20px;
+        }
+        .text p {
+            color: whitesmoke;
+            margin-top: 0;
+        }
+        .text:hover {
+            background-color: rgb(61, 58, 58);
+        }
+        footer {
+            background-color: rgb(125, 125, 232);
+           color: white;
+           text-align: center;
+           padding: 10px 0;
+           margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="text">
+            <h2>Deep Learning</h2>
+            <p>Deep learning is a type of machine learning that uses multi-layered neural networks to analyze and learn from large amounts of data, enabling systems to recognize patterns and make intelligent decisions. It powers advanced applications like image and speech recognition, natural language processing, and autonomous technologies.
+            </p>
+        </div>
+        <div class="image">
+            <img src="pngtree-deep-learning-illustration-concept-flat-design-concept-of-web-page-png-image_4180690-removebg-preview.png" alt="Example Image">
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 June Deep Learning. All rights reserved.</p>
+    </footer>
+</body>
+</html>

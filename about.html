@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> About Deep Learning</title>
+</head>
+<style>
+     body {
+            background-image: url(MobiCom-Banner-Web.png);
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        nav {
+           color: white;
+           padding: 10px 0;
+        }
+
+        nav ul {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          display: flex;
+          float: right;
+         justify-content: center;
+        }
+
+        nav ul li {
+         margin: 0 15px;
+        }
+
+        nav ul li a {
+          color: white;
+          text-decoration: none;
+        }
+        nav ul li a:hover {
+            color: blue;
+        }
+        h1 {
+            color: white;
+           text-align: center;
+           margin-bottom: 20px;
+           font-style: italic;
+        }
+        .container {
+           display: flex;
+           justify-content: space-around;
+           margin: 20px auto;
+           width: 950px;
+           height: 500px;
+        }
+        .box {
+          flex: 1;
+          padding: 20px;
+          background-color: #f0f0f0;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          text-align: center;
+        }
+        .box h2 {
+           margin-top: 0;
+        }
+       .box p {
+          margin-bottom: 0;
+        }
+        footer {
+            background-color: rgb(125, 125, 232);
+           color: white;
+           text-align: center;
+           padding: 10px 0;
+           margin-top: auto;
+        }
+        
+</style>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <h1>Types OF Deep Learning</h1>
+    <div class="container">
+        <div class="box">
+            <h2> Convolutional Neural Networks (CNNs)</h2>
+            <p>Convolutional Neural Networks are specialized for processing data with a grid-like topology, such as images. They use convolutional layers to automatically and adaptively learn spatial hierarchies of features from the input data. Key components include convolutional layers, pooling layers, and fully connected layers.
+        <ul>
+            <li>Applications: Image recognition, object detection, medical image analysis, and computer vision tasks.</li> 
+            <li> Strengths: Efficient at recognizing patterns and spatial hierarchies in visual data..</li></p>
+        </ul>
+        </div>
+        <div class="box">
+            <h2> Recurrent Neural Networks (RNNs)</h2>
+            <p>Recurrent Neural Networks are designed for sequential data and time-series analysis. They maintain a memory of previous inputs through their internal states, making them suitable for tasks where context and sequence are important. Variants like Long Short-Term Memory (LSTM) and Gated Recurrent Units (GRU) address issues like the vanishing gradient problem, allowing RNNs to capture longer dependencies.
+                <ul>
+                    <li>Applications: Natural language processing, speech recognition, language translation, and time-series forecasting.</li>
+                    <li>Strengths: Effective at modeling temporal dependencies and sequential data patterns.</li>
+                </ul>
+            </p>
+        </div>
+        <div class="box">
+            <h2>Generative Adversarial Networks (GANs)</h2>
+            <p>Generative Adversarial Networks consist of two neural networks, a generator and a discriminator, that compete against each other. The generator creates synthetic data, while the discriminator evaluates the authenticity of the generated data against real data. This adversarial process helps the generator produce increasingly realistic data over time.
+                <ul>
+                    <li>Applications: Image and video generation, style transfer, data augmentation, and creating realistic synthetic data</li>
+                    <li>Strengths: Powerful at generating high-quality, realistic data and creative applications.</li>
+                </ul>
+            </p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 June Deep Learning. All rights reserved.</p>
+    </footer>
+</body>
+</html>
